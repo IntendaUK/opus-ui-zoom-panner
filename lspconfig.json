@@ -1,0 +1,8 @@
+{
+	"components": [
+		{
+			"name": "zoomPanner",
+			"path": "src/components/zoomPanner"
+		}
+	]
+}
