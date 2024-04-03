@@ -11,7 +11,7 @@ import { ZoomPanner } from './components/zoomPanner';
 import propsZoomPanner from './components/zoomPanner/props';
 
 //Opus Lib
-import Opus from 'opus-ui';
+import Opus from '@intenda/opus-ui';
 import 'opus-ui-components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 
 //System
-import { ThemedComponent } from 'opus-ui';
+import { ThemedComponent } from '@intenda/opus-ui';
 
 //Events
 import onZoomToFit from './events/onZoomToFit';
