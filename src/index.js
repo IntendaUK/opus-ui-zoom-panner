@@ -12,7 +12,7 @@ import propsZoomPanner from './components/zoomPanner/props';
 
 //Opus Lib
 import Opus from '@intenda/opus-ui';
-import 'opus-ui-components';
+import '@intenda/opus-ui-components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
