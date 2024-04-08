@@ -6,6 +6,7 @@ import { ThemedComponent } from '@intenda/opus-ui';
 
 //Events
 import onZoomToFit from './events/onZoomToFit';
+import onZoom from './events/onZoom';
 
 //Styles
 import './styles.css';
@@ -16,12 +17,13 @@ import { TransformWrapper, TransformComponent } from '@kokarn/react-zoom-pan-pin
 /* eslint-disable max-lines-per-function */
 export const ZoomPanner = props => {
 	const { id, getHandler, wgts, state } = props;
-	const { canvasSize, prpsContainer, tZoomToFit } = state;
+	const { canvasSize, prpsContainer, tZoomToFit, tZoom } = state;
 	const { excludedClassesPanning, excludedClassesWheelZooming, excludedClassesPinchZooming } = state;
 
 	const ref = useRef();
 
 	useEffect(getHandler(onZoomToFit, ref), [tZoomToFit]);
+	useEffect(getHandler(onZoom, ref), [tZoom]);
 
 	return (
 		<TransformWrapper

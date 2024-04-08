@@ -22,6 +22,10 @@ const props = {
 		desc: 'Set to true to auto pan and zoom the canvas to display all child components',
 		dft: false
 	},
+	tZoomTo: {
+		type: 'integer',
+		desc: 'When set, the canvas will zoom by this scale'
+	},
 	zoomToFitElementsSelector: {
 		type: 'string',
 		desc: 'When set, only child components that match this CSS selector will be included in the calculation. See examples here: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors'
