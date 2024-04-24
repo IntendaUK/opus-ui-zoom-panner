@@ -1,15 +1,5 @@
 /* eslint-disable max-len */
 
-const excludedClassesDft = [
-	'cpnButton',
-	'cpnContainer',
-	'cpnContainerSimple',
-	'cpnIcon',
-	'cpnLabel',
-	'cpnLineDragger',
-	'material-icons'
-];
-
 //Props
 const props = {
 	canvasSize: {
@@ -33,7 +23,15 @@ const props = {
 	excludedClassesPanning: {
 		type: 'array',
 		desc: 'An array of class names that, when hovered over, should not allow panning',
-		dft: excludedClassesDft
+		dft: () => [
+			'cpnButton',
+			'cpnContainer',
+			'cpnContainerSimple',
+			'cpnIcon',
+			'cpnLabel',
+			'cpnLineDragger',
+			'material-icons'
+		]
 	},
 	excludedClassesWheelZooming: {
 		type: 'array',
