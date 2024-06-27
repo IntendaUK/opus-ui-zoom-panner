@@ -12,7 +12,7 @@ import onZoom from './events/onZoom';
 import './styles.css';
 
 //Plugins
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
+import { TransformWrapper, TransformComponent } from '@intenda/react-zoom-pan-pinch';
 
 /* eslint-disable max-lines-per-function */
 export const ZoomPanner = props => {

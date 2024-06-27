@@ -17,9 +17,6 @@ createRoot(document.getElementById('root'))
 				},
 				wgts: [{
 					type: 'zoomPanner',
-					prps: {
-						excludedClassesPanning: [ 'cpnLabel' ]
-					},
 					wgts: [{
 						type: 'mover',
 						prps: {
