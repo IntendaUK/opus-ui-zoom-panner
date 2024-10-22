@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"name": "zoomPanner",
-			"path": "src/components/zoomPanner"
+			"path": "dist/components/zoomPanner"
 		}
 	]
 }

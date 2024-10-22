@@ -1,6 +1,6 @@
 {
 	"propSpecConfig": {
-		"path": "src/components/zoomPanner/props.js",
+		"path": "dist/components/zoomPanner/props.js",
 		"functions": [],
 		"dependents": []
 	}
